@@ -61,7 +61,7 @@ $(function() {
                  slidesToscroll:1 
             });
           
-    $("subscribe").submit(function() { //Change
+    $("form").submit(function() { //Change
 		var th = $(this);
 		$.ajax({
 			type: "POST",
